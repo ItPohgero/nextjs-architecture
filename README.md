@@ -54,4 +54,6 @@ Thank you for your interest in contributing to the NextJS Architecture project. 
 
 This message provides a comprehensive overview of the technologies used in the project and detailed instructions on how to contribute.
 
-Wahyu Agus Arifin
+## Wahyu Agus Arifin
+
+Senior Frontend

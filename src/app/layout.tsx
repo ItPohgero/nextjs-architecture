@@ -2,13 +2,13 @@ import { ProviderReduxToolkit } from "@/configs/provider/Redux";
 import type { Metadata } from "next";
 import "@/style/globals.css";
 
-import { Inter as FontSans } from "next/font/google"
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
+import { Inter as FontSans } from "next/font/google";
 
 const fontSans = FontSans({
 	subsets: ["latin"],
 	variable: "--font-sans",
-})
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -25,7 +25,7 @@ export default function RootLayout({
 			<body
 				className={cn(
 					"min-h-screen bg-background font-sans antialiased",
-					fontSans.variable
+					fontSans.variable,
 				)}
 			>
 				<ProviderReduxToolkit>{children}</ProviderReduxToolkit>

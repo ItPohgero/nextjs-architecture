@@ -16,3 +16,7 @@ echo "Code checks are complete."
 # Run the script that might perform unsafe operations (ensure you know what it does)
 bun run b:unsafe
 echo "Potentially unsafe operations are complete."
+
+# Run the script to format the code
+bun run b:format
+echo "Code has been formatted."

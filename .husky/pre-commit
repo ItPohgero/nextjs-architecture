@@ -1,22 +1,19 @@
+.husky/pre-commit
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
 # Run the script to format the code
-echo "Starting code formatting..."
 bun run b:format
 echo "Code has been formatted."
 
 # Run the script to lint the code (check for errors and style issues)
-echo "Starting code linting..."
 bun run b:lint
 echo "Code linting is complete."
 
 # Run the script to check the code (tests, types, etc.)
-echo "Starting code checks..."
 bun run b:check
 echo "Code checks are complete."
 
 # Run the script that might perform unsafe operations (ensure you know what it does)
-echo "Starting potentially unsafe operations..."
 bun run b:unsafe
 echo "Potentially unsafe operations are complete."

@@ -11,10 +11,7 @@
 		"rules": {
 			"recommended": true
 		},
-		"ignore": [
-			".next",
-			"node_modules"
-		]
+		"ignore": [".next", "node_modules"]
 	},
 	"files": {
 		"ignore": [".next", "node_modules"]

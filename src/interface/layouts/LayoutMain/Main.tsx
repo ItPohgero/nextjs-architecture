@@ -8,9 +8,7 @@ interface LayoutMainProps {
 export const LayoutMain: React.FC<LayoutMainProps> = ({ children }) => {
 	return (
 		<Fragment>
-			<div>
-				{children}
-			</div>
+			<div>{children}</div>
 		</Fragment>
 	);
 };

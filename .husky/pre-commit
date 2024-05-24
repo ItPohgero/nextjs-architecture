@@ -1,22 +1,22 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Menjalankan script untuk memformat kode
-echo "Memulai proses format kode..."
+# Run the script to format the code
+echo "Starting code formatting..."
 bun run b:format
-echo "Kode telah diformat."
+echo "Code has been formatted."
 
-# Menjalankan script untuk linting kode (mengecek kesalahan dan masalah gaya)
-echo "Memulai proses linting kode..."
+# Run the script to lint the code (check for errors and style issues)
+echo "Starting code linting..."
 bun run b:lint
-echo "Linting kode selesai."
+echo "Code linting is complete."
 
-# Menjalankan script untuk memeriksa kode (tes, tipe, dll.)
-echo "Memulai proses pengecekan kode..."
+# Run the script to check the code (tests, types, etc.)
+echo "Starting code checks..."
 bun run b:check
-echo "Pengecekan kode selesai."
+echo "Code checks are complete."
 
-# Menjalankan script yang mungkin tidak aman (pastikan Anda tahu apa yang Anda lakukan)
-echo "Memulai proses yang mungkin tidak aman..."
+# Run the script that might perform unsafe operations (ensure you know what it does)
+echo "Starting potentially unsafe operations..."
 bun run b:unsafe
-echo "Proses yang mungkin tidak aman selesai."
+echo "Potentially unsafe operations are complete."

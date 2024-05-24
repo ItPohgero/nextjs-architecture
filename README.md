@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXTJS ARCHITECTURE
 
-## Getting Started
+Welcome to the NextJS Architecture repository. This project is designed to provide a robust and scalable architecture for NextJS applications. We are excited to announce that this repository is open for development and contributions are highly encouraged.
 
-First, run the development server:
+## Technologies Used
+
+- **UI Schadon**: We are utilizing the Schadon UI framework for building responsive and modern user interfaces. Schadon UI offers a comprehensive set of components that streamline the development process and ensure a consistent look and feel across the application.
+
+- **Redux**: State management in this project is handled using Redux. Redux provides a predictable state container for JavaScript apps, making it easier to manage and debug application state, especially in large-scale applications.
+
+- **Biome**: For maintaining code quality, we are using Biome. Biome is a tool that unifies code formatting, linting, and other code quality checks, ensuring that our codebase remains clean, readable, and maintainable.
+
+- **Tailwind CSS**: Tailwind CSS is employed for styling. Tailwind is a utility-first CSS framework that allows developers to build custom designs directly in their markup, leading to faster and more efficient development.
+
+## Contributing
+
+We welcome contributions from the community! Whether you're interested in adding new features, fixing bugs, improving documentation, or suggesting enhancements, your input is valuable.
+
+## How to Contribute
+
+- **Fork the Repository**: Create a copy of this repository in your GitHub account by forking it.
+- **Clone the Repository**: Clone the forked repository to your local machine.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/nextjs-architecture.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Create a New Branch**: Create a new branch for your feature or bug fix.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git checkout -b feature-name
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Make Your Changes**: Implement your changes in the new branch.
+- **Commit Your Changes**: Commit your changes with a clear and concise commit message.
 
-## Learn More
+```bash
+git commit -m "Description of the feature or fix"
+```
 
-To learn more about Next.js, take a look at the following resources:
+- **Push to Your Fork**: Push the changes to your forked repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git push origin feature-name
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Create a Pull Request**: Open a pull request to the main repository, explaining your changes and why they should be merged.
 
-## Deploy on Vercel
+## Code of Conduct
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We are committed to fostering an open and welcoming environment. Please adhere to our code of conduct while participating in this project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for your interest in contributing to the NextJS Architecture project. Together, we can build a powerful and scalable application!
+
+This message provides a comprehensive overview of the technologies used in the project and detailed instructions on how to contribute.
+
+Wahyu Agus Arifin

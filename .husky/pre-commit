@@ -1,1 +1,22 @@
-bun test
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Menjalankan script untuk memformat kode
+echo "Memulai proses format kode..."
+bun run b:format
+echo "Kode telah diformat."
+
+# Menjalankan script untuk linting kode (mengecek kesalahan dan masalah gaya)
+echo "Memulai proses linting kode..."
+bun run b:lint
+echo "Linting kode selesai."
+
+# Menjalankan script untuk memeriksa kode (tes, tipe, dll.)
+echo "Memulai proses pengecekan kode..."
+bun run b:check
+echo "Pengecekan kode selesai."
+
+# Menjalankan script yang mungkin tidak aman (pastikan Anda tahu apa yang Anda lakukan)
+echo "Memulai proses yang mungkin tidak aman..."
+bun run b:unsafe
+echo "Proses yang mungkin tidak aman selesai."

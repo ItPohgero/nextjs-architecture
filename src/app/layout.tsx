@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "@/style/globals.css";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
+import { LayoutMain } from "@/resources/layouts/LayoutMain/Main";
 
 const fontSans = FontSans({
 	subsets: ["latin"],
@@ -28,7 +29,11 @@ export default function RootLayout({
 					fontSans.variable,
 				)}
 			>
-				<ProviderReduxToolkit>{children}</ProviderReduxToolkit>
+				<ProviderReduxToolkit>
+					<LayoutMain>
+						{children}
+					</LayoutMain>
+				</ProviderReduxToolkit>
 			</body>
 		</html>
 	);
